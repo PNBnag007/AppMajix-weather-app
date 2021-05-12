@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+body {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.content {
+  min-height: 100%;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  background: #fff;
+  font-size: 1rem;
+}
+
+.about-content {
+  padding-top: 2rem;
+}
+
+/* Navigation bar for desktop version start */
+.nav-bar {
+  padding: 0 1rem;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav-bar-menu {
+  line-height: 4rem;
+}
+
+.nav-bar-icon {
+  text-align: right;
+}
+
+.weather-search-outer {
+  padding: 0 0.5rem;
+}
+/* Navigation bar for desktop version end */
+
+/* Navigation bar for mobile device start */
+.nav-bar-mobile {
+  padding: 0 1.5rem;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+/* Navigation bar for mobile device end */
+
+.error {
+  padding: 2rem 2rem;
+}
+
+.fetching-weather-content {
+  padding: 4rem 2rem;
+}
+
+.fetching-weather-spinner {
+  padding: 0 0.5rem;
+}
+
+.loading-text {
+  color: rgba(0, 0, 0, 0.65);
+}
+
+/* Current weather section start */
+.current-weather-top {
+  background: #fafafa;
+  padding: 0.5rem 2rem;
+}
+
+.current-weather-top-item {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.current-weather-location {
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.current-weather-summary {
+  padding-top: 1rem;
+  font-size: 1rem;
+}
+
+.current-weather-icon {
+  margin: 0.7rem 1rem 0 0;
+}
+/* Current weather section end */
+
+.forecast-summary {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.forecast-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.daily-forecast-table-outer {
+  padding: 1rem 0;
+}
+
+.daily-forecast-item {
+  font-size: 0.8rem;
+}
+
+.daily-forecast-sub-item-wrapper {
+  text-align: center;
+}
+
+.daily-forecast-sub-item-summary {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Weather chart section start */
+#weather-chart-wrapper {
+  padding: 0 2rem;
+}
+
+.weather-chart {
+  height: 20rem;
+  width: 50rem;
+}
+
+.weather-chart-tooltip-time {
+  font-size: 0.9rem;
+  color: #949494;
+  line-height: 1.1rem;
+}
+
+.weather-chart-tooltip-item {
+  color: #2e2e2e;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 0.5rem;
+}
+/* Weather chart section end */
+
+/* Covid-19 section start */
+#covid-chart-wrapper {
+  padding: 0.5rem 2rem;
+}
+
+#covid-pie-wrapper {
+  padding: 0.5rem 2rem;
+}
+
+#new-zealand-map {
+  height: 50rem;
+  width: 40rem;
+}
+
+.covid-daily-chart {
+  height: 30rem;
+  width: 55rem;
+}
+
+.covid-pie-chart {
+  height: 40rem;
+  width: 70rem;
+}
+
+.covid-tests-chart {
+  padding-top: 2rem;
+  height: 30rem;
+  width: 70rem;
+}
+
+.covid-title {
+  padding: 2rem 1rem 1rem 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.covid-cases-card {
+  text-align: center;
+}
+
+.covid-cases-card-content {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.covid-recovered-cases-content {
+  color: #8aca2b;
+}
+
+.covid-death-cases-content {
+  color: red;
+}
+
+.map-title {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.map-legend-overlay {
+  position: absolute;
+  width: 35%;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.map-legend-wrapper {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.map-legend {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(to right, #fca107, #7f3121);
+}
+
+.last-updated {
+  font-size: 0.8rem;
+}
+/* Covid-19 section end */
+
+#windy {
+  width: 100%;
+  min-height: 100%;
+  height: 85vh;
+}
+
+::-webkit-scrollbar {
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: #a4a4a4;
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media screen and (min-device-width: 577px) and (max-device-width: 768px) {
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 576px) {
+  .current-weather-top {
+    background: #fafafa;
+    padding: 0.5rem 1rem;
+  }
+
+  .current-weather-top-item {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .current-weather-location {
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .current-weather-icon {
+    margin: 0.5rem 1rem 0 0;
+  }
+
+  .forecast-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  .forecast-summary {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  #weather-chart-wrapper {
+    padding: 0 0.5rem;
+  }
+
+  .weather-chart {
+    height: 18rem;
+    width: 25rem;
+  }
+}
